@@ -1,0 +1,129 @@
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 1024px) {
+  #hero h1 {
+    font-size: 120px;
+  }
+  #hero h3 {
+    font-size: 20px;
+  }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 980px) {
+  /* body {
+    text-align: center;
+  } */
+  #hero h1 {
+    font-size: 110px;
+  }
+  #hero h3 {
+    font-size: 18px;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+/* Smaller Devices */
+
+@media only screen and (max-width: 800px) {
+  #hero h1 {
+    font-size: 95px;
+  }
+  #hero h3 {
+    font-size: 16px;
+    margin: 0px;
+  }
+  .btn-reverse {
+    padding: 15px 50px;
+  }
+  #hero {
+    height: 500px;
+  }
+}
+
+/* Mobile Devices */
+
+@media only screen and (max-width: 640px) {
+  #hero h1 {
+    font-size: 75px;
+  }
+  #hero h3 {
+    font-size: 13px;
+    margin: 0px;
+  }
+  .btn-reverse {
+    padding: 10px 20px;
+  }
+  #hero {
+    height: 360px;
+  }
+  #hero .container {
+    padding-top: 30px;
+  }
+  #hero p {
+    padding-top: 60px;
+  }
+  .btn-inverse {
+    padding: 15px 30px;
+    width: 85%;
+    margin: 20px 0 0 0;
+  }
+  #register {
+    width: 90%;
+  }
+}
+
+/* Smaller Mobile Devices */
+
+@media only screen and (max-width: 480px) {
+  #hero h1 {
+    font-size: 60px;
+  }
+  #hero h2 {
+    font-size: 20px;
+  }
+  #hero h3 {
+    font-size: 12px;
+    margin: 0px;
+  }
+  #hero {
+    height: 320px;
+  }
+  #hero .btn {
+    margin-top: 10px;
+  }
+}
+
+/* Even Smaller Mobile Devices */
+
+@media only screen and (max-width: 360px) {
+  #hero h1 {
+    font-size: 50px;
+  }
+  .btn-reverse {
+    padding: 10px;
+  }
+  #hero .container {
+    padding-top: 50px;
+  }
+  .optional {
+    display: none;
+  }
+}
+
+/* Smallest Mobile Devices */
+
+@media only screen and (max-width: 320px) {
+  #hero h1 {
+    font-size: 40px;
+  }
+  #hero h2 {
+    font-size: 17px;
+  }
+  #hero p {
+    padding-top: 40px;
+  }
+}

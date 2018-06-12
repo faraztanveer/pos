@@ -1,0 +1,116 @@
+.content a .main-page-card-h5 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.content a .main-page-card-h5:hover {
+  color: #eee;
+}
+
+
+.sidebar-wrapper #categories-drop a {
+  color: #FFF;
+}
+
+.number {
+  font-size: 50px;
+  
+}
+
+.icon .fa {
+  color: red;
+}
+
+.heading {
+  font-size: 30px;
+}
+
+.nav-tabs .nav-link.active {
+  color: #000000;
+  font-weight: bold;
+}
+
+.card label {
+  color: #000000;
+}
+
+@media screen and (max-width: 640px) {
+  table {
+    overflow-x: auto;
+    display: block;
+  }
+}
+
+
+/* layout.css Style */
+
+.upload-drop-zone {
+  height: 200px;
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+
+/* skin.css Style*/
+
+.upload-drop-zone {
+  color: #ccc;
+  border-style: dashed;
+  border-color: #ccc;
+  line-height: 200px;
+  text-align: center
+}
+
+.upload-drop-zone.drop {
+  color: #222;
+  border-color: #222;
+}
+
+.image-preview-input {
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.image-preview-input input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.image-preview-input-title {
+  margin-left: 2px;
+}
+
+
+
+#salesContent .input-group-text {
+  background-color: #2A64B7;
+  height: 40px;
+  color: #fff;
+}
+
+
+#salesContent .sub-total{
+  padding: 10px;
+  background-color: #06d80657;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+#salesContent #dateField {
+  display: none;
+}
+
+select.form-control-sm:not([size]):not([multiple]) {
+  height: calc(1.8125rem + 6px);
+}

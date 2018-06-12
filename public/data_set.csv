@@ -1,0 +1,23 @@
+category,location,month,"item sold"
+bags,Dhair,May,7
+casual,0,august,1
+casual,0,november,1
+denim,0,december,1
+denim,samanabad,december,1
+denim,0,february,1
+denim,samanabad,may,1
+denim,samanabad,november,2
+formal,0,december,1
+formal,0,july,1
+formal,0,may,3
+sneakers,0,february,1
+sneakers,"Kot Mohibbu",january,1
+sneakers,0,may,2
+socks,0,april,1
+socks,0,february,1
+socks,0,january,1
+"t shirts",0,august,2
+"t shirts",0,july,1
+"t shirts",0,june,1
+"t shirts",Dhair,May,1
+"t shirts","Kot Mohibbu",May,1
